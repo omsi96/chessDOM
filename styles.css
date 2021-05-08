@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.chessboard {
+  display: flex;
+  background-color: #eeeed4;
+  width: 500px;
+  height: 500px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: top;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cell {
+  height: 62.5px;
+  width: 62.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.even {
+  background-color: #7c935d;
+}
+.odd {
+  background-color: #eeeed4;
+}
+
+.test {
+  background-color: yellow;
+}
