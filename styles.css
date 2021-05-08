@@ -40,3 +40,11 @@
 .test {
   background-color: yellow;
 }
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: rgba(0, 0, 0, 0.235);
+  border-radius: 50%;
+  display: inline-block;
+}
